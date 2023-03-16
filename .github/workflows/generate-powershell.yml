@@ -17,7 +17,7 @@ jobs:
 
       - name: Copy install-vsc-remote-pack.ps1
         run: |
-          curl -sS https://raw.githubusercontent.com/brettjrea/GitHub_Generate_Readme/main/powershell/install-vsc-remote-pack.ps1 --output windows-install-wsl.ps1
+          curl -sS https://raw.githubusercontent.com/brettjrea/GitHub_Generate_Readme/main/powershell/install-vsc-remote-pack.ps1 --output install-vsc-remote-pack.ps1
 
       - name: Auto commit
         uses: stefanzweifel/git-auto-commit-action@v4
