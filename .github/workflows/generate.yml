@@ -15,7 +15,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Copy windows-install-wsl.ps1
+      - name: Copy install-vsc-remote-pack.ps1
         run: |
           curl -sS https://raw.githubusercontent.com/brettjrea/GitHub_Generate_Readme/main/powershell/install-vsc-remote-pack.ps1 --output install-vsc-remote-pack.ps1
       
